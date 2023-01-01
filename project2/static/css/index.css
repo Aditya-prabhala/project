@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+	background-color: rgb(218, 203, 203);
+}
+header{
+    background: url(1.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+	color: #565656;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+.nav-area li a:hover {
+	background: #565656;
+	color: #fff;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 100%;
+    padding: 15px 0;
+}
+.welcome-text {
+    width: 60%;
+	/* position: absolute; */
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	/* transform: translate(-50%,-50%); */
+}
+.welcome h1 {
+	padding-top: 100px;
+	/* text-align: center; */
+	color:#3c565b;
+	text-transform: uppercase;
+	font-size: 38px;
+	font-family:linex sans bold;
+	padding-bottom: 5%;
+	padding-left: 39%;
+}
+.welcome.h1:hover{
+	background: #565656;
+	color: #fff;
+}
+.welcome-text a {
+	border: 1px solid #565656;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #565656;
+	font-weight: 900;
+}
+.welcome-text a:hover {
+	background: #565656;
+	color: #fff;
+}
+.logo{
+	width: 125px;
+	height: 150px;
+}
+.main{
+	width: 1200px;
+	height: 250px;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+.a{
+	float: left;
+	width: 600px;
+	height: 250px;
+}
+.b{
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+.d{
+	float: right;
+	width: 300px;
+	height: 250px;
+}
+img{
+	border-radius: 2px;
+	border-color: aqua;
+}
+
+
+.c{
+	float: right;
+	width: 600px;
+	height: 250px;
+}
+.e{
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+.f{
+	float: right;
+	width: 300px;
+	height: 250px;
+};
+p{
+	text-align:justify;
+	padding-left: 40px;
+}
+.para{
+	width: 70%;
+	margin-left: 15%;
+	text-align: justify;
+}
+p{
+	font-family:Times New Roman;
+}
+
+/*resposive*/
+
+@media (max-width:600px){
+    .wrapper {
+width: 100%;
+}
+.logo {
+float: none;
+width: 20%;
+text-align: center;
+margin: auto;
+}
+.nav-area {
+float: none;
+margin-top: 0;
+}
+    .nav-area li a {
+padding: 5px;
+font-size: 11px;
+}
+.nav-area {
+text-align: center;
+}
+    
+    .welcome-text h1 {
+font-size: 30px;
+}
+}
+

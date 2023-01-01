@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Website Layout Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> 
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="logo">
+            <img src="{{url_for('static',filename='css/aditya-logo.webp')}}" >
+        </div>
+        
+        <ul class="nav-area">
+            <li><a href="/">Home</a></li>
+            <li><a href="/login">LOGIN</a></li>
+            <li><a href="/register">REGISTER</a></li>
+        </ul>
+    </div>
+<div class="welcome">
+    <h1><u>Being Social</u></h1>
+</div>
+
+<div class="para">
+    
+    <p><h4>The “Being Social” is a social media platform which is used to connect with friends 
+        and we can be able to share our memories, ideas and thoughts. This platform supports 
+        all major features that a social media must require like Responsiveness, Privacy, 
+        Sharing and Messaging. It has some microservices that will used to do the respective 
+        process like Authentication, Comments, User services etc., we have created a 
+        Responsive Frontend and we have connected the Backend to that Frontend application 
+        using React JS. The images and posts we share will store in a platform called 
+        “Cloudinary” and user details will be stored in “MongoDB”. By connecting all the 
+        Services into a single platform by using some “Routes” we can be able get a clean 
+        social media platform “Being Social”..Social media is a web‐based technology to facilitate social interaction between a large 
+        group of people through some type of network. In common widely used network is 
+        the Internet. But social media platforms are also for local networks as well.Social 
+        media is growing rapidly and becoming an inevitable part of everyday life, because of 
+        the latest technological revolution. This stunning growth is due to the increasing 
+        usage of smart phones like BlackBerrys, Q-Mobile, Androids and iPhones. These 
+        Smart phones make it easy to access any social media platform from anywhere 
+        virtually. The mobile versions of these social media sites are so easy to access made it 
+        user friendly</h4></p>
+</div>
+
+ <div class="main" >
+    <div class="a" >
+        <div class="b"><img src="{{url_for('static',filename='images/g.png')}}"><h3>ORUSU GOVIND(590)</h3></div>
+        
+        <div class="d"><img src="{{url_for('static',filename='images/a.jpg')}}"><h3>PRABHALA ADITYA(A4)</h3></div>
+        
+    </div>
+    <div class="c">
+         <div class="e"><img src="{{url_for('static',filename='images/s.png')}}"><h3>NULAKANI SATISH(593)</h3></div>
+         
+         <div class="f"><img src="{{url_for('static',filename='images/i.png')}}"><h3>SHAIK IBRAHIM(5B3)</h3></div>
+
+    </div>
+ </div>
+
+
+</body>
+</html>
